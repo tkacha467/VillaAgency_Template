@@ -74,9 +74,9 @@
                                     <!-- ***** Menu Start ***** -->
                                     <ul class="nav">
                                         <li><a href="index.aspx" class="active">Home</a></li>
-                                        <li><a href="properties.html">Properties</a></li>
-                                        <li><a href="property-details.html">Property Details</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="properties.aspx">Properties</a></li>
+                                        <li><a href="Property_details.aspx">Property Details</a></li>
+                                        <li><a href="Contact.aspx">Contact Us</a></li>
                                          <li><a href="Registration.aspx">Registration</a></li>
                                         <li><a href="#"><i class="fa fa-calendar"></i>Schedule a visit</a></li>
                                     </ul>

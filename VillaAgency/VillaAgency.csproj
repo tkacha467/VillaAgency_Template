@@ -101,11 +101,14 @@
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\isotope.min.js" />
     <Content Include="assets\js\owl-carousel.js" />
+    <Content Include="Contact.aspx" />
     <Content Include="contact.html" />
     <Content Include="index.aspx" />
     <Content Include="index.html" />
+    <Content Include="Properties.aspx" />
     <Content Include="properties.html" />
     <Content Include="property-details.html" />
+    <Content Include="Property_details.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
@@ -116,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,7 +133,21 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Properties.aspx.cs">
+      <DependentUpon>Properties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties.aspx.designer.cs">
+      <DependentUpon>Properties.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property_details.aspx.cs">
+      <DependentUpon>Property_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Property_details.aspx.designer.cs">
+      <DependentUpon>Property_details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
