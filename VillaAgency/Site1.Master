@@ -77,7 +77,8 @@
                                         <li><a href="properties.aspx">Properties</a></li>
                                         <li><a href="Property_details.aspx">Property Details</a></li>
                                         <li><a href="Contact.aspx">Contact Us</a></li>
-                                         <li><a href="Registration.aspx">Registration</a></li>
+                                        <li><a href="Registration.aspx">Registration</a></li>
+                                        <li><a href="Employee.aspx">Employee</a></li>
                                         <li><a href="#"><i class="fa fa-calendar"></i>Schedule a visit</a></li>
                                     </ul>
                                     <a class='menu-trigger'>

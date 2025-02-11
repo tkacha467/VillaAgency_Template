@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Emp_Databse.mdf" />
+    <Content Include="App_Data\Emp_Databse_log.ldf">
+      <DependentUpon>Emp_Databse.mdf</DependentUpon>
+    </Content>
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\flex-slider.css" />
     <Content Include="assets\css\fontawesome.css" />
@@ -103,6 +107,7 @@
     <Content Include="assets\js\owl-carousel.js" />
     <Content Include="Contact.aspx" />
     <Content Include="contact.html" />
+    <Content Include="Employee.aspx" />
     <Content Include="index.aspx" />
     <Content Include="index.html" />
     <Content Include="Properties.aspx" />
@@ -125,6 +130,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -182,6 +194,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
